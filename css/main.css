@@ -1,0 +1,12 @@
+.header__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__list-icons{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
