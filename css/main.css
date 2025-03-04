@@ -1,12 +1,45 @@
-.header__list{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    
+.hero__image{
+    display: block;
+    width: 1775.77px;
+    height: 930px;
 }
 
-.header__list-icons{
+.action{
+    display: flex;
+    justify-content: center;
+}
+
+.action__container{
+    width: 869px;
+    height: 257px;
+    gap: 52px;
+}
+.action__image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 61px;
+    height: 61px;
+}
+.action__title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.action__description{
+    text-align: center;
+    vertical-align: baseline;
+}
+.action__list{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    grid-column-gap: 50px;
+}
+
+.action__item{
+    width: 255px;
+    height: 257px;
+    gap: 10px;
 }
